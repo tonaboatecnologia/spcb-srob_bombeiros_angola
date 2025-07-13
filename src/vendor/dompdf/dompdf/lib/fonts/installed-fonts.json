@@ -1,0 +1,7 @@
+{
+    "ubuntu": {
+        "normal": "C:\\xampp\\htdocs\\spcb\\src\\vendor\\dompdf\\dompdf\/lib\/fonts\/ubuntu_normal_de3bd9cac4dd30ea4cc4e73c24e9f8d8",
+        "500": "ubuntu_500_a2b721aa8b573ae4e993309d614d3d20",
+        "bold": "C:\\xampp\\htdocs\\spcb\\src\\vendor\\dompdf\\dompdf\/lib\/fonts\/ubuntu_bold_102fbdc70ebc97d5aacdcb5ef9ac8de3"
+    }
+}

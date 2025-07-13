@@ -1,0 +1,12 @@
+RewriteEngine On 
+RewriteCond %{REQUEST_FILENAME} !-f
+
+# Exemplo: index.php?url=blog/index
+# QSL significa que, se houver uma string de consulta passada com a URL original, ela será anexada à reescrita.
+# Exemplo: blog?situacao=1 será reescrita como index.php?url=blog&p=situacao.
+# o sinalizador [L] faz com que o mod_rewrite interropa o processamento do conjunto de regras.
+
+RewriteRule ^(.*)$ /spcb/public/index.php?url=$1 [QSA,L]
+
+# Quando ocorrer o erro 403, redicione o usuário.
+ErrorDocument 403 https://ricardomassungui.github.io

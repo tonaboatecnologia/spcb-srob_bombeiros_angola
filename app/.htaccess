@@ -1,0 +1,13 @@
+
+
+# Bloquear a opção de listar os arquivos do directório.
+Options -Indexes
+
+# Bloquear o acesso ao arquivo .env com o arquivo .htaccess
+<files .env>
+    Order allow, deny
+    Deny from all
+</files>
+
+# Fazer código PHP parecer com tipos desconhecidos
+AddType application/x-httpd-php .bop .foo .133t
